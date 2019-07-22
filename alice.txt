@@ -1,0 +1,8 @@
+With Listary you’ll never have to go through the tedious process of browsing through folders, looking for the right file names and hunting through Windows’ limited menus ever again.
+
+Listary puts smart search technology at your fingertips so you can keep working without dealing with cumbersome native Windows navigation.
+
+With a lightweight interface that doesn’t bog your system down and strain system resources, Listary puts Windows Explorer on steroids.
+
+For power users, Listary integrates with your favorite tools such as Total Commander, Directory Opus, XYplorer, Xplorer2, WinRAR, FileZilla and many more!
+For this a test file for QQ Quora empire
