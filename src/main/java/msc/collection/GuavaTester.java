@@ -20,9 +20,7 @@ public class GuavaTester {
     public static void main(String args[]) {
         GuavaTester tester = new GuavaTester();
         Iterable<String> strings = tester.testSplitter();
-        for (String string : strings) {
-            System.err.println("string = " + string);
-        }
+        strings.forEach(System.out::println);
     }
 
     private Iterable<String> testSplitter() {
