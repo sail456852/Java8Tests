@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doubanLogonCookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BaseConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BaseDBConnectionPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BaseDaoMaster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BaseDaoSlave.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BaseDaoUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BasePageResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/Configuration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/ConnectionInfoPrint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/DBConnectionPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/DbSecurityUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/EncDecServ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/MapToBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/PageResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/PropertiesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/StringUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/myc3p0/DataConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/UnirestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/UnirestClient.java" afterDir="false" />
     </list>
     <list id="1c417bd2-ee27-4aa6-aa5b-fbc6d9749929" name="DoNotCommit" comment="DoNotCommit" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +128,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="&#10;" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/tij/enumeration" />
-    <property name="last_opened_file_path" value="D:/springtest/spring-test.gradle" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/tutorials/tutorial-processor/sampleprocessor" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -151,9 +136,16 @@
     <property name="project.structure.side.proportion" value="0.3895886" />
     <property name="rest.client.default.execution.environment" value="local80" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="spring.service" />
+      <recent name="msc.form" />
+      <recent name="msc.util" />
+      <recent name="spring.springshiro" />
+      <recent name="msc.email" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="spring" />
       <recent name="msc.httpClient" />
@@ -165,11 +157,12 @@
       <recent name="msc.excel.deprecatedExcel" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\excel\deprecatedExcel" />
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\utils" />
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\depreciatedUtils" />
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\Java8Tests\src\test\java\spring\official" />
+      <recent name="C:\Users\Administrator\IdeaProjects\Java8Tests" />
+      <recent name="C:\Users\Administrator\IdeaProjects\Java8Tests\src\main\java\msc\httpClient\kuaidi100" />
+      <recent name="C:\Users\Administrator\IdeaProjects\Java8Tests\src\main\java\msc\httpClient\douban" />
+      <recent name="C:\Users\Administrator\IdeaProjects\Java8Tests\src\main\java\udemy\cc\example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="msc.util" />
@@ -178,19 +171,11 @@
       <recent name="msc.encription" />
       <recent name="msc.collection" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\Java8Tests\src\test\java\spring\official" />
-      <recent name="C:\Users\Administrator\IdeaProjects\Java8Tests" />
-      <recent name="C:\Users\Administrator\IdeaProjects\Java8Tests\src\main\java\msc\httpClient\kuaidi100" />
-      <recent name="C:\Users\Administrator\IdeaProjects\Java8Tests\src\main\java\msc\httpClient\douban" />
-      <recent name="C:\Users\Administrator\IdeaProjects\Java8Tests\src\main\java\udemy\cc\example" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="spring.service" />
-      <recent name="msc.form" />
-      <recent name="msc.util" />
-      <recent name="spring.springshiro" />
-      <recent name="msc.email" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient" />
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\excel\deprecatedExcel" />
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\utils" />
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\depreciatedUtils" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -215,20 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DouBan.loginTest">
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.Queue" />
-      <module name="Java8Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UnirestClient.simpleHttpClient (1)">
     <configuration name="DouBan.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8Tests" />
       <extension name="coverage">
@@ -240,22 +212,6 @@
       <option name="PACKAGE_NAME" value="msc.httpclient.douban" />
       <option name="MAIN_CLASS_NAME" value="msc.httpclient.douban.DouBan" />
       <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleTests.getTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring.official.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="spring.official" />
-      <option name="MAIN_CLASS_NAME" value="spring.official.ExampleTests" />
-      <option name="METHOD_NAME" value="getTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -277,17 +233,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamTests.combinedStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8Tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring.*" />
+          <option name="PATTERN" value="cjhi.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="spring" />
-      <option name="MAIN_CLASS_NAME" value="spring.TestControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="cjhi.stream" />
+      <option name="MAIN_CLASS_NAME" value="cjhi.stream.StreamTests" />
+      <option name="METHOD_NAME" value="combinedStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnirestClient.simpleHttpClient (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="msc.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="msc.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="msc.httpclient.UnirestClient" />
+      <option name="METHOD_NAME" value="simpleHttpClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnirestClient.simpleHttpClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="msc.httpclient.depreciatedUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="msc.httpclient.depreciatedUtils.UnirestClient" />
+      <option name="METHOD_NAME" value="simpleHttpClient" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -318,20 +306,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Queue" />
-      <item itemvalue="JUnit.ExampleTests.getTest" />
-      <item itemvalue="Maven.jetty" />
-      <item itemvalue="JUnit.TestControllerTest" />
       <item itemvalue="JUnit.MyWebTests.getTest" />
       <item itemvalue="JUnit.DouBan.loginTest" />
+      <item itemvalue="JUnit.StreamTests.combinedStream" />
+      <item itemvalue="Maven.jetty" />
+      <item itemvalue="JUnit.UnirestClient.simpleHttpClient" />
+      <item itemvalue="JUnit.UnirestClient.simpleHttpClient (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnirestClient.simpleHttpClient (1)" />
+        <item itemvalue="JUnit.UnirestClient.simpleHttpClient" />
+        <item itemvalue="JUnit.StreamTests.combinedStream" />
         <item itemvalue="JUnit.DouBan.loginTest" />
         <item itemvalue="JUnit.MyWebTests.getTest" />
-        <item itemvalue="JUnit.TestControllerTest" />
-        <item itemvalue="JUnit.ExampleTests.getTest" />
-        <item itemvalue="Application.Queue" />
       </list>
     </recent_temporary>
   </component>
@@ -607,41 +595,16 @@
       <option name="project" value="LOCAL" />
       <updated>1590460273262</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="now it can be started">
+      <created>1590460451275</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1590460451275</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="MyWebTests_getTest - 2019.02.02 at 16h 05m 42s.xml">
-      <configuration name="MyWebTests.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyWebTests_getTest - 2019.02.02 at 16h 07m 41s.xml">
-      <configuration name="MyWebTests.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyWebTests_getTest - 2019.02.02 at 16h 11m 04s.xml">
-      <configuration name="MyWebTests.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyWebTests_getTest - 2019.02.02 at 16h 20m 03s.xml">
-      <configuration name="MyWebTests.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyWebTests_getTest - 2019.02.02 at 16h 20m 33s.xml">
-      <configuration name="MyWebTests.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleTests_getTest - 2019.02.02 at 16h 21m 22s.xml">
-      <configuration name="ExampleTests.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleTests_getTest - 2019.02.02 at 16h 22m 04s.xml">
-      <configuration name="ExampleTests.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleTests_getTest - 2019.02.02 at 16h 22m 24s.xml">
-      <configuration name="ExampleTests.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleTests_getTest - 2019.02.02 at 16h 25m 03s.xml">
-      <configuration name="ExampleTests.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExampleTests_getTest - 2019.02.02 at 16h 25m 32s.xml">
-      <configuration name="ExampleTests.getTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="267632000" />
@@ -692,64 +655,83 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="559" y="199" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585036519010" />
+    <state x="-1356" y="143" key="#UnirestClient.simpleHttpClient" timestamp="1590491741358">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1356" y="143" key="#UnirestClient.simpleHttpClient/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590491741358" />
     <state x="421" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584943882477">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="421" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584943882477" />
-    <state x="810" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590458506063">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1216" y="394" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1590491165971">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="-1216" y="394" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590491165971" />
+    <state x="-1110" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590491764307">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1110" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590491764307" />
     <state x="810" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590458506063" />
     <state x="810" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584943514762" />
     <state x="758" y="381" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590460115152">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="758" y="381" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460115152" />
-    <state x="539" y="48" key="CommitChangelistDialog2" timestamp="1590460269907">
+    <state x="539" y="48" key="CommitChangelistDialog2" timestamp="1590460450012">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="539" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460269907" />
-    <state x="663" y="328" key="FileChooserDialogImpl" timestamp="1590458492500">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="539" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460450012" />
+    <state x="-1257" y="328" key="FileChooserDialogImpl" timestamp="1590491162397">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="663" y="325" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585036518093" />
-    <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590458492500" />
+    <state x="-1257" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590491162397" />
+    <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590461373802" />
     <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944479614" />
-    <state width="1405" height="240" key="GridCell.Tab.0.bottom" timestamp="1584944578968">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1418" height="251" key="GridCell.Tab.0.bottom" timestamp="1590495359318">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1418" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590495359318" />
+    <state width="1904" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590463157524" />
     <state width="1405" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1405" height="240" key="GridCell.Tab.0.center" timestamp="1584944578968">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1418" height="251" key="GridCell.Tab.0.center" timestamp="1590495359318">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1418" height="251" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590495359318" />
+    <state width="1904" height="273" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590463157524" />
     <state width="1405" height="240" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1405" height="240" key="GridCell.Tab.0.left" timestamp="1584944578968">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1418" height="251" key="GridCell.Tab.0.left" timestamp="1590495359318">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1418" height="251" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590495359318" />
+    <state width="1904" height="273" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590463157524" />
     <state width="1405" height="240" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1405" height="240" key="GridCell.Tab.0.right" timestamp="1584944578968">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1418" height="251" key="GridCell.Tab.0.right" timestamp="1590495359318">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1418" height="251" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590495359318" />
+    <state width="1904" height="273" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590463157524" />
     <state width="1405" height="240" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
     <state x="497" y="196" key="Maven.ArtifactSearchDialog" timestamp="1590458615908">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="497" y="196" key="Maven.ArtifactSearchDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590458615908" />
     <state x="497" y="196" key="Maven.ArtifactSearchDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585109153514" />
-    <state x="468" y="188" key="SettingsEditor" timestamp="1590458499820">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1452" y="188" key="SettingsEditor" timestamp="1590491670856">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="468" y="186" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585036473998" />
+    <state x="-1452" y="188" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590491670856" />
     <state x="468" y="188" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590458499820" />
     <state x="468" y="188" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944575560" />
     <state width="498" height="557" key="SwitcherDM" timestamp="1590460129541">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="498" height="557" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460129541" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1590460282644">
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1590460454502">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460282644" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460454502" />
     <state x="774" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584944020201">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -763,9 +745,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="255" key="run.anything.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944093122" />
-    <state x="630" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1590460446349">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1590491646200">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590491646200" />
     <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460446349" />
     <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585115920248" />
   </component>

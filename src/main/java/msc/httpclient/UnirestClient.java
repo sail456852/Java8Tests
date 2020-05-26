@@ -1,15 +1,19 @@
-package msc.httpclient.depreciatedUtils;
+package msc.httpclient;
 
 
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
+
+import static java.util.concurrent.Executors.*;
 
 /**
  * Created by Okita.<br/>
@@ -19,32 +23,33 @@ import java.util.concurrent.atomic.AtomicInteger;
  * To change this template use File | Settings | File Templates.
  */
 public class UnirestClient {
-    private  static AtomicInteger count;
+    private static AtomicInteger count;
     private static char[] chararr;
 
+    final static Logger logger = LogManager.getLogger(UnirestClient.class);
     static {
-       chararr = "abcdefghijklmnopqrstovwxyz".toCharArray();
-       count = new AtomicInteger(0);
+        chararr = "abcdefghijklmnopqrstovwxyz".toCharArray();
+        count = new AtomicInteger(0);
     }
 
     public static void main(String[] args) {
         ArrayList<String> validList = new ArrayList<String>();
-        ExecutorService exec = Executors.newCachedThreadPool();
+        ExecutorService executorService = newCachedThreadPool();
         int range = 3;
         UnirestClient uc = new UnirestClient();
-        for (int i = 0; i < 23; i+=3) {
+        for (int i = 0; i < 23; i += 3) {
             int finalI = i;
             System.err.println("finalI = " + finalI);
-            exec.execute(new Runnable() {
-               @Override
-               public void run() {
-                   try {
-                       uc.rangeCheck(validList, finalI, range);
-                   } catch (UnirestException e) {
-                       e.printStackTrace();
-                   }
-               }
-           });
+            executorService.execute(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        uc.rangeCheck(validList, finalI, range);
+                    } catch (UnirestException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
         }
 //        uc.rangeCheck(validList, 23, 2); // 24th 25th == y z
         for (String s : validList) {
@@ -53,13 +58,13 @@ public class UnirestClient {
     }
 
     @Test
-    public void checkUrl(){
+    public void checkUrl() {
         UnirestClient uc = new UnirestClient();
         String consts = "sai";
-        for(char c2 = 'a'; c2 <= 'z'; c2++){
+        for (char c2 = 'a'; c2 <= 'z'; c2++) {
             try {
                 boolean b = uc.checkDomain(consts + c2);
-                if(b){
+                if (b) {
                     System.err.println("UnirestClient.checkUrl found!!! --- " + consts + c2);
                 }
             } catch (UnirestException e) {
@@ -70,13 +75,13 @@ public class UnirestClient {
 
     private void rangeCheck(ArrayList<String> validList, int i, int n) throws UnirestException {
         System.err.println("Thread.currentThread().getName() = " + Thread.currentThread().getName());
-        for(char c = chararr[i]; c < chararr[i+n]; c++){
+        for (char c = chararr[i]; c < chararr[i + n]; c++) {
             String varUrl = "";
-            varUrl +=c;
-            for(char c2 = c ; c2 <= 'z'; c2++){
+            varUrl += c;
+            for (char c2 = c; c2 <= 'z'; c2++) {
                 varUrl = "" + c;
-                varUrl +=c2;
-                if(checkDomain(varUrl)){
+                varUrl += c2;
+                if (checkDomain(varUrl)) {
                     validList.add(varUrl);
                 }
             }
@@ -84,8 +89,8 @@ public class UnirestClient {
     }
 
     private boolean checkDomain(String varUrl) throws UnirestException {
-        System.err.println(Thread.currentThread().getName() + " :   checking  = " + varUrl + "  count=  " + count.addAndGet(1) );
-        HttpResponse<String> response = Unirest.get("https://wss.cloud.tencent.com/buy/api/domains/domain/check?g_tk=786224694&t=1543146071332&_format=json&mc_gtk=786224694&domain_name=" + varUrl+"&tlds=.cn&_xsrf=281527b972f4183797f9cbe824903248%7C1543133864")
+        System.err.println(Thread.currentThread().getName() + " :   checking  = " + varUrl + "  count=  " + count.addAndGet(1));
+        HttpResponse<String> response = Unirest.get("https://wss.cloud.tencent.com/buy/api/domains/domain/check?g_tk=786224694&t=1543146071332&_format=json&mc_gtk=786224694&domain_name=" + varUrl + "&tlds=.cn&_xsrf=281527b972f4183797f9cbe824903248%7C1543133864")
                 .header("Origin", "https://buy.cloud.tencent.com")
                 .header("Accept-Encoding", "gzip, deflate, br")
                 .header("Accept-Language", "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7")
@@ -98,11 +103,20 @@ public class UnirestClient {
                 .header("Postman-Token", "72e29cb9-890f-4478-921f-a0bb53ddf02f")
                 .asString();
         String body = response.getBody();
-        if(body.contains(":false")){
+        if (body.contains(":false")) {
             System.err.println("UnirestClient.main found one! ---  " + varUrl);
             return true;
-        }else{
+        } else {
             return false;
         }
+    }
+
+    @Test
+    public void simpleHttpClient() throws UnirestException {
+        String url = "https://api.opencagedata.com/geocode/v1/geojson?q=Best Western Holiday Hills Coalville  US&key=40c5004960f54155bf56be289a792da8";
+        url = url.replaceAll("\\s+", "%");
+        logger.info(url);
+        String s = HttpUtil.doGet(url, 5000);
+        logger.info(s);
     }
 }
