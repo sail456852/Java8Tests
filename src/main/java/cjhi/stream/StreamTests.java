@@ -1,6 +1,6 @@
 package cjhi.stream;
 
-import org.apache.poi.ss.formula.functions.T;
+
 import org.junit.Test;
 
 import java.io.IOException;
@@ -20,6 +20,7 @@ import java.util.stream.Stream;
  */
 public class StreamTests {
     static String contents;
+
     static {
         try {
             contents = new String(

@@ -6,7 +6,7 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
 import io.gsonfire.GsonFireBuilder;
-import jodd.util.StringUtil;
+import org.apache.commons.lang3.StringUtils;
 
 import java.io.IOException;
 import java.lang.reflect.Type;
@@ -39,7 +39,7 @@ public class GsonUtils {
                     return src == null ? new JsonPrimitive("") : new JsonPrimitive(this.df.format(src));
                 }
             });
-            if (StringUtil.isNotEmpty(dateFormat)) {
+            if (StringUtils.isNotEmpty(dateFormat)) {
                 builder.setDateFormat(dateFormat);
             }
             gson = builder.create();

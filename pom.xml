@@ -251,11 +251,11 @@
             <artifactId>xstream</artifactId>
             <version>1.4.10</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.hive</groupId>
-            <artifactId>hive-exec</artifactId>
-            <version>1.2.1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.hive</groupId>-->
+<!--            <artifactId>hive-exec</artifactId>-->
+<!--            <version>1.2.1</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -294,6 +294,14 @@
 
         <!--@author: eugene @date: 2019/2/2 -->
         <!--java.util.MissingResourceException: Can't find bundle for base name javax.servlet.LocalStrings, locale cn_ZH-->
+        <!-- dependencies for testing -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>compile</scope>
+        </dependency>
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -309,6 +317,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.16</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>
@@ -342,15 +356,15 @@
             </plugin>
 
             <!--<plugin>-->
-                <!--<groupId>org.apache.tomcat.maven</groupId>-->
-                <!--<artifactId>tomcat7-maven-plugin</artifactId>-->
-                <!--<version>2.2</version>-->
-                <!--<configuration>-->
-                    <!--<path>/ditui</path>-->
-                    <!--<server>tomcat7</server>-->
-                    <!--<username>admin</username>-->
-                    <!--<password>147258369</password>-->
-                <!--</configuration>-->
+            <!--<groupId>org.apache.tomcat.maven</groupId>-->
+            <!--<artifactId>tomcat7-maven-plugin</artifactId>-->
+            <!--<version>2.2</version>-->
+            <!--<configuration>-->
+            <!--<path>/ditui</path>-->
+            <!--<server>tomcat7</server>-->
+            <!--<username>admin</username>-->
+            <!--<password>147258369</password>-->
+            <!--</configuration>-->
             <!--</plugin>-->
 
             <plugin>

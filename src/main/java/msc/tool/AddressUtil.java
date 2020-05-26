@@ -1,6 +1,6 @@
 package msc.tool;
 
-import msc.httpClient.NetUtil;
+import msc.httpclient.utils.NetUtil;
 import org.json.JSONException;
 import org.json.JSONObject;
 

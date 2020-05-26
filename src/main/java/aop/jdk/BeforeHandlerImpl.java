@@ -1,6 +1,5 @@
 package aop.jdk;
 
-import org.junit.Before;
 
 import java.lang.reflect.Method;
 
