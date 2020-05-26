@@ -2,43 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/msc/excel/deprecatedExcel/ExcelUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doubanLogonCookies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aop/jdk/BeforeHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/jdk/BeforeHandlerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cjhi/stream/StreamTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cjhi/stream/StreamTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/excel/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/excel/deprecatedExcel/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/excel/ExcelUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/utils/CookieUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/CookieUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/CookieUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/EncodingInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/EncodingInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/HttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/HttpsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/HttpsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/MarvinHttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/MarvinHttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/NetUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/utils/NetUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/OkHttpTencent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/OkHttpTencent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/SSLClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/SSLClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/UnirestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/UnirestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/douban/BaiduApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/douban/BaiduApiDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/douban/DouBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/douban/DouBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/douban/DoubanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/douban/DoubanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/kuaidi100/config/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/config/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/kuaidi100/pojo/MapCustomConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/MapCustomConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/kuaidi100/pojo/NoticeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/NoticeRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/kuaidi100/pojo/NoticeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/NoticeResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/kuaidi100/pojo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/kuaidi100/pojo/ResultItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/ResultItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/kuaidi100/pojo/TaskRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/TaskRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/kuaidi100/pojo/TaskResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/TaskResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/kuaidi100/utils/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/utils/HttpRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpClient/kuaidi100/utils/JacksonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/utils/JacksonHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/tool/AddressUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/tool/AddressUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/util/GsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/util/GsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BaseConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BaseDBConnectionPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BaseDaoMaster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BaseDaoSlave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BaseDaoUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/BasePageResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/ConnectionInfoPrint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/DBConnectionPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/DbSecurityUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/EncDecServ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/MapToBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/PageResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/PropertiesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/databasepool/myc3p0/DataConnectionTest.java" beforeDir="false" />
     </list>
     <list id="1c417bd2-ee27-4aa6-aa5b-fbc6d9749929" name="DoNotCommit" comment="DoNotCommit" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,6 +125,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -617,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548841200509</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="now it can be started">
+      <created>1590460273262</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1590460273262</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -669,6 +659,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/TIJ4-code" />
     </ignored-roots>
@@ -692,7 +683,8 @@
     <MESSAGE value="Quartz executed twice found" />
     <MESSAGE value="POJO to JSON String function &amp; Postman parameters format added" />
     <MESSAGE value="new Job start method introduced: the trigger!" />
-    <option name="LAST_COMMIT_MESSAGE" value="new Job start method introduced: the trigger!" />
+    <MESSAGE value="now it can be started" />
+    <option name="LAST_COMMIT_MESSAGE" value="now it can be started" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -713,6 +705,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="758" y="381" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460115152" />
+    <state x="539" y="48" key="CommitChangelistDialog2" timestamp="1590460269907">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="539" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460269907" />
     <state x="663" y="328" key="FileChooserDialogImpl" timestamp="1590458492500">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -750,23 +746,27 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="498" height="557" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460129541" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1590460282644">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460282644" />
     <state x="774" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584944020201">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="774" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944020201" />
-    <state x="653" y="261" width="640" height="568" key="find.popup" timestamp="1590458743883">
+    <state x="653" y="261" width="640" height="568" key="find.popup" timestamp="1590460375457">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="653" y="261" width="640" height="568" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590458743883" />
+    <state x="653" y="261" width="640" height="568" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460375457" />
     <state x="653" y="261" width="627" height="568" key="find.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584945801694" />
     <state x="623" y="255" key="run.anything.popup" timestamp="1584944093122">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="255" key="run.anything.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944093122" />
-    <state x="630" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1590460199005">
+    <state x="630" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1590460446349">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460199005" />
+    <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460446349" />
     <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585115920248" />
   </component>
   <component name="debuggerHistoryManager">
