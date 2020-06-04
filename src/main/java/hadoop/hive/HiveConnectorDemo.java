@@ -51,11 +51,14 @@ public class HiveConnectorDemo {
             double latitude = queryFromOriginTable.getDouble(1);
             double longitude = queryFromOriginTable.getDouble(2);
             String geoHashValue = geoConvert(latitude, longitude);
-            logger.info("geo from query: " + latitude + " ,  " + longitude);
+//            logger.info("geo from query: " + latitude + " ,  " + longitude);
             logger.info("geo hash value: " + geoHashValue);
             updatePreStatement.setString(1, geoHashValue);
             updatePreStatement.setDouble(2, latitude);
             updatePreStatement.setDouble(3, longitude);
+            logger.info("executing update");
+            int r = updatePreStatement.executeUpdate();
+            logger.info(" " + r);
         }
     }
 

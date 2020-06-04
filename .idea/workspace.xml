@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="geohash &amp; hive primitive query and update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/stage/lib/sample/Errors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/BoundingBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/GeoHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/WGS84Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/queries/GeoHashBoundingBoxQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/queries/GeoHashCircleQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/queries/GeoHashQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/util/BoundingBoxGeoHashIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/util/BoundingBoxSampler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/util/GeoHashSizeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/util/LongUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/util/TwoGeoHashBoundingBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geohash/util/VincentyGeodesy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage/processor/sample/Groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage/processor/sample/SampleDProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage/processor/sample/SampleProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hadoop/hive/TestGeoHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/msc/httpclient/HttpUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" beforeDir="false" />
+    <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http-client.env.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/HttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/UnirestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/UnirestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" afterDir="false" />
     </list>
     <list id="1c417bd2-ee27-4aa6-aa5b-fbc6d9749929" name="DoNotCommit" comment="DoNotCommit" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,6 +134,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3895886" />
     <property name="rest.client.default.execution.environment" value="local80" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -631,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590495437528</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="geohash &amp; hive primitive query and update">
+      <created>1591258122731</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591258122731</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -720,10 +703,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1279" y="284" width="977" height="766" key="#xdebugger.evaluate/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590543539581" />
-    <state x="-1381" y="48" key="CommitChangelistDialog2" timestamp="1591257767651">
+    <state x="-1381" y="48" key="CommitChangelistDialog2" timestamp="1591258120123">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1381" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591257767651" />
+    <state x="-1381" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591258120123" />
     <state x="539" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460450012" />
     <state x="490" y="180" key="DBNavigator.ProjectSettingsDialog" timestamp="1591065549984">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -740,49 +723,49 @@
     <state x="-1257" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591070312275" />
     <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591065378251" />
     <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944479614" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1591257767616">
+    <state width="1877" height="354" key="GridCell.Tab.0.bottom" timestamp="1591259753039">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591257767616" />
+    <state width="1877" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591259753039" />
     <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
     <state width="1405" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1591257767616">
+    <state width="1877" height="354" key="GridCell.Tab.0.center" timestamp="1591259753038">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591257767616" />
+    <state width="1877" height="354" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591259753038" />
     <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
     <state width="1405" height="240" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1591257767616">
+    <state width="1877" height="354" key="GridCell.Tab.0.left" timestamp="1591259753038">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591257767616" />
+    <state width="1877" height="354" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591259753038" />
     <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786517" />
     <state width="1405" height="240" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1591257767616">
+    <state width="1877" height="354" key="GridCell.Tab.0.right" timestamp="1591259753039">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591257767616" />
+    <state width="1877" height="354" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591259753039" />
     <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
     <state width="1405" height="240" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="220" key="GridCell.Tab.1.bottom" timestamp="1591243769675">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="220" key="GridCell.Tab.1.bottom" timestamp="1591258331020">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590543577315" />
+    <state width="1877" height="220" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591258331020" />
     <state width="1877" height="220" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591243769675" />
-    <state width="1877" height="220" key="GridCell.Tab.1.center" timestamp="1591243769674">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="220" key="GridCell.Tab.1.center" timestamp="1591258331019">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590543577315" />
+    <state width="1877" height="220" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591258331019" />
     <state width="1877" height="220" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591243769674" />
-    <state width="1877" height="220" key="GridCell.Tab.1.left" timestamp="1591243769674">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="220" key="GridCell.Tab.1.left" timestamp="1591258331019">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590543577315" />
+    <state width="1877" height="220" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591258331019" />
     <state width="1877" height="220" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591243769674" />
-    <state width="1877" height="220" key="GridCell.Tab.1.right" timestamp="1591243769674">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="220" key="GridCell.Tab.1.right" timestamp="1591258331019">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590543577315" />
+    <state width="1877" height="220" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591258331019" />
     <state width="1877" height="220" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591243769674" />
     <state x="-1423" y="196" key="Maven.ArtifactSearchDialog" timestamp="1590496297256">
       <screen x="-1920" y="0" width="1920" height="1050" />
