@@ -52,6 +52,7 @@ public class HiveConnectorDemo {
             double longitude = queryFromOriginTable.getDouble(2);
             String geoHashValue = geoConvert(latitude, longitude);
 //            logger.info("geo from query: " + latitude + " ,  " + longitude);
+            // update eugene.eugene_weather set geohash = 1 where lat is null and lng is null and geohash is null;
             logger.info("geo hash value: " + geoHashValue);
             updatePreStatement.setString(1, geoHashValue);
             updatePreStatement.setDouble(2, latitude);
