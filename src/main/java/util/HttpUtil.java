@@ -1,4 +1,4 @@
-package msc.httpclient;
+package util;
 
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.HttpException;
@@ -14,20 +14,6 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Map;
 
-/**
- * @author Eugene_Wang
- *
- *    <dependency>
- *       <groupId>org.apache.commons</groupId>
- *       <artifactId>commons-lang3</artifactId>
- *       <version>3.6</version>
- *     </dependency>
- *     <dependency>
- *       <groupId>commons-httpclient</groupId>
- *       <artifactId>commons-httpclient</artifactId>
- *       <version>3.1</version>
- *     </dependency>
- */
 public class HttpUtil {
     static final Logger log = LoggerFactory.getLogger(HttpUtil.class);
 

@@ -1,11 +1,13 @@
 package msc.httpclient;
 
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.json.JSONObject;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -111,12 +113,4 @@ public class UnirestClient {
         }
     }
 
-    @Test
-    public void simpleHttpClient() throws UnirestException {
-        String url = "https://api.opencagedata.com/geocode/v1/geojson?q=Best Western Holiday Hills Coalville  US&key=40c5004960f54155bf56be289a792da8";
-        url = url.replaceAll("\\s+", "%");
-        logger.info(url);
-        String s = HttpUtil.doGet(url, 5000);
-        logger.info(s);
-    }
 }
