@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" afterDir="false" />
     </list>
     <list id="1c417bd2-ee27-4aa6-aa5b-fbc6d9749929" name="DoNotCommit" comment="DoNotCommit" />
     <option name="SHOW_DIALOG" value="false" />
@@ -621,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591260253932</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="stucked in update">
+      <created>1591261201692</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591261201693</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -711,10 +717,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1279" y="284" width="977" height="766" key="#xdebugger.evaluate/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590543539581" />
-    <state x="-1381" y="48" key="CommitChangelistDialog2" timestamp="1591260252609">
+    <state x="-1381" y="48" key="CommitChangelistDialog2" timestamp="1591261200564">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1381" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591260252609" />
+    <state x="-1381" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591261200564" />
     <state x="539" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460450012" />
     <state x="490" y="180" key="DBNavigator.ProjectSettingsDialog" timestamp="1591065549984">
       <screen x="0" y="0" width="1920" height="1050" />
