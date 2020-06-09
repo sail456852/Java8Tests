@@ -32,39 +32,30 @@ public class HiveConnectorDemo {
         Class.forName(driverName);
         Connection con = DriverManager.getConnection("jdbc:hive2://sandbox-hdp.hortonworks.com:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2", "hive", "Gbhnjmk,");
         Statement stmt = con.createStatement();
+//        String testSql = "insert into table eugene_weather values ('11.00','22','01','88','22','2020-08-08','xsdfs')";
+//        stmt.execute(testSql);
 
-        updateWeather(con, stmt, "eugene_weather_origin", "eugene_weather", " set geohash = ? where lat = ? and lng = ? and geohash is null", "select lat, lng, avg_tmpr_f, avg_tmpr_c, wthr_date from eugene.");
-        updateWeather(con, stmt, "eugene_hotel_origin", "eugene_hotel", " set geohash = ? where Latitude = ? and Longitude = ? and geohash is null", "select Latitude, Longitude from eugene.");
+        readHive(con, stmt, "eugene_weather_origin", "select lat, lng, avg_tmpr_f, avg_tmpr_c, wthr_date from default.");
     }
 
-    private static void updateWeather(Connection con, Statement stmt, String sourceTableName, String targetTableName, String updateClause, String queryClause) throws SQLException {
-        String selectSql = queryClause + sourceTableName;
+
+    private static void readHive(Connection con, Statement stmt, String sourceTableName, String sql) throws SQLException {
+        String selectSql = sql + sourceTableName;
         logger.info("querySql: " + selectSql);
         ResultSet queryFromOriginTable = stmt.executeQuery(selectSql);
-
-
-        String updateSql = "update eugene." + targetTableName + updateClause;
-        logger.info("updateSql : " + updateSql);
-        PreparedStatement updatePreStatement = con.prepareStatement(updateSql);
-
-        while (queryFromOriginTable.next()) {
+        int count = 0;
+        while (queryFromOriginTable.next() && count < 10) {
             double latitude = queryFromOriginTable.getDouble(1);
             double longitude = queryFromOriginTable.getDouble(2);
-            String geoHashValue = geoConvert(latitude, longitude);
-//            logger.info("geo from query: " + latitude + " ,  " + longitude);
-            // update eugene.eugene_weather set geohash = 1 where lat is null and lng is null and geohash is null;
+            String geoHashValue = geoConvert(latitude, longitude, 3);
+            logger.info(longitude  +  " : " + latitude);
             logger.info("geo hash value: " + geoHashValue);
-            updatePreStatement.setString(1, geoHashValue);
-            updatePreStatement.setDouble(2, latitude);
-            updatePreStatement.setDouble(3, longitude);
-            logger.info("executing update");
-            int r = updatePreStatement.executeUpdate();
-            logger.info(" " + r);
+            count++;
         }
     }
 
-    public static String geoConvert(Double lat, Double Lon) {
-        GeoHash geoHash = GeoHash.withCharacterPrecision(lat, Lon, 5);
+    public static String geoConvert(Double lat, Double Lon, int geoPrecision) {
+        GeoHash geoHash = GeoHash.withCharacterPrecision(lat, Lon, geoPrecision);
         return geoHash.toBase32();
     }
 }

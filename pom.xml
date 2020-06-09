@@ -60,12 +60,6 @@
             <version>${slf4j.version}</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>${slf4j.version}</version>
-            <scope>provided</scope>
-        </dependency>
         <!-- end -->
 
         <!-- Test Dependencies -->
@@ -196,11 +190,11 @@
             <version>1.7.2</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.21</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>slf4j-log4j12</artifactId>-->
+<!--            <version>1.7.21</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
