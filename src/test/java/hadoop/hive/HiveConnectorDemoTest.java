@@ -42,4 +42,9 @@ public class HiveConnectorDemoTest {
     @Test
     public void geoConvert() {
     }
+
+    @Test
+    public void alterHiveTable() throws SQLException, ClassNotFoundException {
+        demoObj.alterHiveTable(con);
+    }
 }

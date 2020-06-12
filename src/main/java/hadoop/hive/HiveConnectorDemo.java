@@ -3,9 +3,9 @@ package hadoop.hive;
 import geohash.GeoHash;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.junit.Test;
 
 import java.sql.*;
+import java.util.*;
 
 /**
  * Created by IntelliJ IDEA.<br/>
@@ -29,18 +29,37 @@ public class HiveConnectorDemo {
     final Logger logger = LogManager.getLogger(HiveConnectorDemo.class);
     public String driverName = "org.apache.hive.jdbc.HiveDriver";
 
-    public void alterHiveTable() throws SQLException, ClassNotFoundException {
-        Class.forName(driverName);
-        Connection con = DriverManager.getConnection("jdbc:hive2://sandbox-hdp.hortonworks.com:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2", "hive", "Gbhnjmk,");
-
+    public void alterHiveTable(Connection con) throws SQLException, ClassNotFoundException {
         String tableName = "weather";
-        String year = "2000";
-        String month = "1"; // 8 9 10
-        String day = "1";
-        String alterPartionSql = "ALTER TABLE " + tableName + " ADD PARTITION(year=" + year + ", month=" + month + ", day=" + day + ") LOCATION 'hdfs://sandbox-hdp.hortonworks.com/sandbox/weather/year=" + year + "/month=" + month + "/day=" + day + "";
-        logger.info(alterPartionSql);
-        executeHiveSql(con, alterPartionSql);
+        Map<String, List<String>> yearMonthsGiven = new HashMap<>();
+        yearMonthsGiven.put("2016", new LinkedList<String>() {{
+            add("10");
+        }});
+        yearMonthsGiven.put("2017", new LinkedList<String>() {{
+            add("8");
+            add("9");
+        }});
+        alterPartitionByYMD(con, tableName, "2016", yearMonthsGiven.get("2016"));
+        alterPartitionByYMD(con, tableName, "2017", yearMonthsGiven.get("2017"));
 
+
+    }
+
+    private void alterPartitionByYMD(Connection con, String tableName, String year, List<String> monthList) throws SQLException {
+        String day;
+        String alterPartionSql;
+        Calendar cal = Calendar.getInstance();
+        for (String month : monthList) {
+            cal.set(Integer.parseInt(year), Integer.parseInt(month), 1);
+            int endDayOfThatDate = cal.getActualMaximum(Calendar.DATE);
+            logger.info(endDayOfThatDate);
+            for (int i = 1; i <= endDayOfThatDate; i++) {
+                day = "" + i;
+                alterPartionSql = "ALTER TABLE " + tableName + " ADD PARTITION(year=" + year + ", month=" + month + ", day=" + day + ") LOCATION 'hdfs://sandbox-hdp.hortonworks.com/sandbox/weather/year=" + year + "/month=" + month + "/day=" + day + "'";
+                logger.info(alterPartionSql);
+                executeHiveSql(con, alterPartionSql);
+            }
+        }
     }
 
     /**
