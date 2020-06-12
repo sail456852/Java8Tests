@@ -3,6 +3,7 @@ package hadoop.hive;
 import geohash.GeoHash;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.junit.Test;
 
 import java.sql.*;
 
@@ -25,36 +26,52 @@ import java.sql.*;
  * To change this template use File | Settings | File Templates.
  */
 public class HiveConnectorDemo {
-    final static Logger logger = LogManager.getLogger(HiveConnectorDemo.class);
-    private static String driverName = "org.apache.hive.jdbc.HiveDriver";
+    final Logger logger = LogManager.getLogger(HiveConnectorDemo.class);
+    public String driverName = "org.apache.hive.jdbc.HiveDriver";
 
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+    public void alterHiveTable() throws SQLException, ClassNotFoundException {
         Class.forName(driverName);
         Connection con = DriverManager.getConnection("jdbc:hive2://sandbox-hdp.hortonworks.com:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2", "hive", "Gbhnjmk,");
-        Statement stmt = con.createStatement();
-//        String testSql = "insert into table eugene_weather values ('11.00','22','01','88','22','2020-08-08','xsdfs')";
-//        stmt.execute(testSql);
 
-        readHive(con, stmt, "eugene_weather_origin", "select lat, lng, avg_tmpr_f, avg_tmpr_c, wthr_date from default.");
+        String tableName = "weather";
+        String year = "2000";
+        String month = "1"; // 8 9 10
+        String day = "1";
+        String alterPartionSql = "ALTER TABLE " + tableName + " ADD PARTITION(year=" + year + ", month=" + month + ", day=" + day + ") LOCATION 'hdfs://sandbox-hdp.hortonworks.com/sandbox/weather/year=" + year + "/month=" + month + "/day=" + day + "";
+        logger.info(alterPartionSql);
+        executeHiveSql(con, alterPartionSql);
+
     }
 
-
-    private static void readHive(Connection con, Statement stmt, String sourceTableName, String sql) throws SQLException {
-        String selectSql = sql + sourceTableName;
-        logger.info("querySql: " + selectSql);
-        ResultSet queryFromOriginTable = stmt.executeQuery(selectSql);
+    /**
+     * @param con
+     * @param querySql
+     * @param columnIndex1
+     * @param columnIndex2
+     * @param countLimit
+     * @throws SQLException //        readHive(con, "select * from hotels", 6, 7, 10);
+     */
+    public void readHive(Connection con, String querySql, int columnIndex1, int columnIndex2, int countLimit) throws SQLException {
+        logger.info(querySql);
+        Statement stmt = con.createStatement();
+        ResultSet queryFromOriginTable = stmt.executeQuery(querySql);
         int count = 0;
-        while (queryFromOriginTable.next() && count < 10) {
-            double latitude = queryFromOriginTable.getDouble(1);
-            double longitude = queryFromOriginTable.getDouble(2);
-            String geoHashValue = geoConvert(latitude, longitude, 3);
-            logger.info(longitude  +  " : " + latitude);
-            logger.info("geo hash value: " + geoHashValue);
+        while (queryFromOriginTable.next() && count < countLimit) {
+            double column1 = queryFromOriginTable.getDouble(columnIndex1);
+            double column2 = queryFromOriginTable.getDouble(columnIndex2);
+            logger.info(column1 + " : " + column2);
             count++;
         }
     }
 
-    public static String geoConvert(Double lat, Double Lon, int geoPrecision) {
+    public void executeHiveSql(Connection con, String sql) throws SQLException {
+        Statement stmt = con.createStatement();
+        logger.info(sql);
+        boolean execute = stmt.execute(sql);
+        logger.info(execute);
+    }
+
+    public String geoConvert(Double lat, Double Lon, int geoPrecision) {
         GeoHash geoHash = GeoHash.withCharacterPrecision(lat, Lon, geoPrecision);
         return geoHash.toBase32();
     }

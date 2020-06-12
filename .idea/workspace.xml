@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="read okay hive">
+    <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/KStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hadoop/hive/HiveConnectorDemoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" afterDir="false" />
     </list>
     <list id="1c417bd2-ee27-4aa6-aa5b-fbc6d9749929" name="DoNotCommit" comment="DoNotCommit" />
@@ -49,8 +50,8 @@
         <option value="AnnotationType" />
         <option value="JavaScript File" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -140,7 +141,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="spring.service" />
+      <recent name="msc.form" />
+      <recent name="msc.util" />
+      <recent name="spring.springshiro" />
+      <recent name="msc.email" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="hadoop.hive" />
       <recent name="msc.httpclient" />
       <recent name="spring" />
       <recent name="msc.httpClient" />
@@ -152,13 +161,6 @@
       <recent name="hadoop.hive" />
       <recent name="msc.excel.deprecatedExcel" />
       <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\hadoop\hive" />
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient" />
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\excel\deprecatedExcel" />
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\utils" />
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\depreciatedUtils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java" />
@@ -174,12 +176,12 @@
       <recent name="msc.encription" />
       <recent name="msc.collection" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="spring.service" />
-      <recent name="msc.form" />
-      <recent name="msc.util" />
-      <recent name="spring.springshiro" />
-      <recent name="msc.email" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\hadoop\hive" />
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient" />
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\excel\deprecatedExcel" />
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\utils" />
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\depreciatedUtils" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -204,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HiveConnectorDemo">
+  <component name="RunManager" selected="JUnit.HiveConnectorDemoTest.readHive">
     <configuration name="HiveConnectorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hadoop.hive.HiveConnectorDemo" />
       <module name="Java8Tests" />
@@ -227,6 +229,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiveConnectorDemoTest.readHive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hadoop.hive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hadoop.hive" />
+      <option name="MAIN_CLASS_NAME" value="hadoop.hive.HiveConnectorDemoTest" />
+      <option name="METHOD_NAME" value="readHive" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -263,22 +281,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnirestClient.simpleHttpClient (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="msc.httpclient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="msc.httpclient" />
-      <option name="MAIN_CLASS_NAME" value="msc.httpclient.UnirestClient" />
-      <option name="METHOD_NAME" value="simpleHttpClient" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="jetty" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -307,18 +309,18 @@
     <list>
       <item itemvalue="Application.TestGeo" />
       <item itemvalue="Application.HiveConnectorDemo" />
-      <item itemvalue="JUnit.UnirestClient.simpleHttpClient (1)" />
       <item itemvalue="JUnit.HttpUtilTest.doGet" />
       <item itemvalue="JUnit.TestGeoHash.generateGeoHashDemo" />
       <item itemvalue="Maven.jetty" />
+      <item itemvalue="JUnit.HiveConnectorDemoTest.readHive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HiveConnectorDemoTest.readHive" />
         <item itemvalue="Application.HiveConnectorDemo" />
         <item itemvalue="JUnit.TestGeoHash.generateGeoHashDemo" />
         <item itemvalue="Application.TestGeo" />
         <item itemvalue="JUnit.HttpUtilTest.doGet" />
-        <item itemvalue="JUnit.UnirestClient.simpleHttpClient (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -636,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591320110304</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="read okay hive">
+      <created>1591694791020</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1591694791020</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -719,6 +728,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1280" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591070356239" />
+    <state x="-1256" y="56" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1591952270400">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1256" y="56" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591952270400" />
     <state x="758" y="381" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591240205194">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -727,10 +740,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1279" y="284" width="977" height="766" key="#xdebugger.evaluate/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590543539581" />
-    <state x="-1381" y="48" key="CommitChangelistDialog2" timestamp="1591694656976">
+    <state x="-1381" y="48" key="CommitChangelistDialog2" timestamp="1591694789945">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1381" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694656976" />
+    <state x="-1381" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694789945" />
     <state x="539" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460450012" />
     <state x="490" y="180" key="DBNavigator.ProjectSettingsDialog" timestamp="1591065549984">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -751,28 +764,28 @@
     <state x="-1257" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694218625" />
     <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591065378251" />
     <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944479614" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1591694524387">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1591952559619">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694524387" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591952559619" />
     <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
     <state width="1405" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1591694524387">
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1591952559619">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694524387" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591952559619" />
     <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
     <state width="1405" height="240" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1591694524387">
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1591952559619">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694524387" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591952559619" />
     <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786517" />
     <state width="1405" height="240" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1591694524387">
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1591952559619">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694524387" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591952559619" />
     <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
     <state width="1405" height="240" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
     <state width="1877" height="220" key="GridCell.Tab.1.bottom" timestamp="1591694236435">
@@ -838,37 +851,37 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="774" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944020201" />
-    <state x="-1189" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590495555290">
+    <state x="-1189" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591952151639">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1189" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590495555290" />
+    <state x="-1189" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591952151639" />
     <state x="690" y="269" key="extract.method.dialog" timestamp="1591240780092">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="269" key="extract.method.dialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591240780092" />
-    <state x="-1421" y="169" width="1146" height="786" key="find.popup" timestamp="1591694630714">
+    <state x="-1421" y="169" width="1146" height="786" key="find.popup" timestamp="1591952257364">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1421" y="169" width="1146" height="786" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694630714" />
+    <state x="-1421" y="169" width="1146" height="786" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591952257364" />
     <state x="653" y="261" width="640" height="568" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591241406460" />
     <state x="653" y="261" width="627" height="568" key="find.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584945801694" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1591257653120">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591257653120" />
-    <state x="-1251" y="135" key="refactoring.ChangeSignatureDialog" timestamp="1591256882424">
+    <state x="-1251" y="135" key="refactoring.ChangeSignatureDialog" timestamp="1591951347730">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1251" y="135" key="refactoring.ChangeSignatureDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591256882424" />
+    <state x="-1251" y="135" key="refactoring.ChangeSignatureDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591951347730" />
     <state x="623" y="255" width="672" height="677" key="run.anything.popup" timestamp="1591241984924">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="255" width="672" height="677" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591241984924" />
     <state x="623" y="255" key="run.anything.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944093122" />
-    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1591694506588">
+    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1591952268099">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694506588" />
+    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591952268099" />
     <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591243749991" />
     <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585115920248" />
   </component>
