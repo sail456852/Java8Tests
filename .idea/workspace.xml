@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/kafka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/SimpleKafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/dto/WeatherDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/dto/WeatherDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/dto/WeatherSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/streamDemo/KStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/kafka/stream/SimpleKafkaProducerTest.java" afterDir="false" />
+    <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="make kafka module as a single project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/KStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/SimpleKafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/SimpleKafkaProducer.java" afterDir="false" />
     </list>
     <list id="1c417bd2-ee27-4aa6-aa5b-fbc6d9749929" name="DoNotCommit" comment="DoNotCommit" />
     <option name="SHOW_DIALOG" value="false" />
@@ -672,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591955479380</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="make kafka module as a single project">
+      <created>1592294746321</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1592294746321</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -696,7 +694,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/TIJ4-code" />
     </ignored-roots>
-    <MESSAGE value="Spring AOP Aspect Tester introduced! around only ran once!" />
     <MESSAGE value="timed job introduced and AOP revised" />
     <MESSAGE value="TIJ annotation begins" />
     <MESSAGE value="Spring listener introduced!" />
@@ -721,7 +718,8 @@
     <MESSAGE value="read okay hive" />
     <MESSAGE value="refactor hive demo" />
     <MESSAGE value="hive add partition works well" />
-    <option name="LAST_COMMIT_MESSAGE" value="hive add partition works well" />
+    <MESSAGE value="make kafka module as a single project" />
+    <option name="LAST_COMMIT_MESSAGE" value="make kafka module as a single project" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -771,10 +769,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1279" y="284" width="977" height="766" key="#xdebugger.evaluate/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590543539581" />
-    <state x="-1381" y="48" key="CommitChangelistDialog2" timestamp="1591955478575">
+    <state x="-1381" y="48" key="CommitChangelistDialog2" timestamp="1592294825255">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1381" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591955478575" />
+    <state x="-1381" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592294825255" />
     <state x="539" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460450012" />
     <state x="490" y="180" key="DBNavigator.ProjectSettingsDialog" timestamp="1591065549984">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -784,10 +782,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="522" height="625" key="DebuggerActiveHint/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591689388883" />
-    <state x="-1828" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1591687733100">
+    <state x="-1828" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1592294840461">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1828" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591687733100" />
+    <state x="-1828" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592294840461" />
     <state x="-1257" y="328" key="FileChooserDialogImpl" timestamp="1592293186859">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -795,28 +793,28 @@
     <state x="-1257" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592293186859" />
     <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591065378251" />
     <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944479614" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1592290177755">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1592295341441">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592290177755" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592295341441" />
     <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
     <state width="1405" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1592290177755">
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1592295341441">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592290177755" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592295341441" />
     <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
     <state width="1405" height="240" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1592290177754">
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1592295341441">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592290177754" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592295341441" />
     <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786517" />
     <state width="1405" height="240" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1592290177755">
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1592295341441">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592290177755" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592295341441" />
     <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
     <state width="1405" height="240" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
     <state width="1877" height="220" key="GridCell.Tab.1.bottom" timestamp="1591694236435">
@@ -873,10 +871,10 @@
     </state>
     <state width="498" height="597" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592293718601" />
     <state width="498" height="617" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591244319548" />
-    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2" timestamp="1591322537368">
+    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2" timestamp="1592294841500">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591322537368" />
+    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592294841500" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460454502" />
     <state width="968" height="533" key="XDebugger.FullValuePopup" timestamp="1590543055351">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -910,6 +908,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591257653120" />
+    <state x="-1578" y="249" key="new project wizard" timestamp="1592294806138">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1578" y="249" key="new project wizard/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592294806138" />
     <state x="-1251" y="135" key="refactoring.ChangeSignatureDialog" timestamp="1591953816318">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>

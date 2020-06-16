@@ -19,6 +19,7 @@ import java.util.Random;
  * Date: 6/16/2020<br/>
  * Time: 11:49 AM<br/>
  * To change this template use File | Settings | File Templates.
+ *
  */
 public class SimpleKafkaProducer {
     static final Logger logger = LogManager.getLogger(SimpleKafkaProducer.class);
