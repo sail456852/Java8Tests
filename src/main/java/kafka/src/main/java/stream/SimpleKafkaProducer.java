@@ -37,7 +37,7 @@ public class SimpleKafkaProducer {
         Properties props = new Properties();
 
         //Assign localhost id
-        props.put("bootstrap.servers", "localhost:6667");
+        props.put("bootstrap.servers", "sandbox-hdp.hortonworks.com:6667");
 
         //Set acknowledgements for producer requests.
         props.put("acks", "all");
