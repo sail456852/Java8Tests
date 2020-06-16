@@ -1,33 +1,33 @@
-//package kafka;
-//
-///**
-// * Created by IntelliJ IDEA.<br/>
-// *
-// * @author: Eugene_Wang<br />
-// * Date: 6/10/2020<br/>
-// * Time: 2:22 PM<br/>
-// * To change this template use File | Settings | File Templates.
-// */
-//
-//import org.apache.kafka.common.serialization.Serdes;
-//import org.apache.kafka.common.utils.Bytes;
-//import org.apache.kafka.streams.KafkaStreams;
-//import org.apache.kafka.streams.StreamsBuilder;
-//import org.apache.kafka.streams.StreamsConfig;
-//import org.apache.kafka.streams.kstream.KStream;
-//import org.apache.kafka.streams.kstream.KTable;
-//import org.apache.kafka.streams.kstream.Materialized;
-//import org.apache.kafka.streams.kstream.Produced;
-//import org.apache.kafka.streams.state.KeyValueStore;
-//
-//import java.util.Arrays;
-//import java.util.Properties;
-//
-//public class KStreamDemo {
-//
+package streamDemo;
+
+/**
+ * Created by IntelliJ IDEA.<br/>
+ *
+ * @author: Eugene_Wang<br />
+ * Date: 6/10/2020<br/>
+ * Time: 2:22 PM<br/>
+ * To change this template use File | Settings | File Templates.
+ */
+
+import org.apache.kafka.common.serialization.Serdes;
+import org.apache.kafka.common.utils.Bytes;
+import org.apache.kafka.streams.KafkaStreams;
+import org.apache.kafka.streams.StreamsBuilder;
+import org.apache.kafka.streams.StreamsConfig;
+import org.apache.kafka.streams.kstream.KStream;
+import org.apache.kafka.streams.kstream.KTable;
+import org.apache.kafka.streams.kstream.Materialized;
+import org.apache.kafka.streams.kstream.Produced;
+import org.apache.kafka.streams.state.KeyValueStore;
+
+import java.util.Arrays;
+import java.util.Properties;
+
+public class KStreamDemo {
+
 //    public static void main(final String[] args) throws Exception {
 //        Properties props = new Properties();
-//        props.put(StreamsConfig.APPLICATION_ID_CONFIG, "wordcount-application");
+//        props.put(StreamsConfig.APPLICATION_ID_CONFIG, "weather-application");
 //        props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "kafka-broker1:9092");
 //        props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
 //        props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
@@ -43,6 +43,5 @@
 //        KafkaStreams streams = new KafkaStreams(builder.build(), props);
 //        streams.start();
 //    }
-//
-//}
-//}
+
+}

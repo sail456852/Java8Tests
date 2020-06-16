@@ -27,7 +27,6 @@ import java.util.*;
  */
 public class HiveConnectorDemo {
     final Logger logger = LogManager.getLogger(HiveConnectorDemo.class);
-    public String driverName = "org.apache.hive.jdbc.HiveDriver";
 
     public void alterHiveTable(Connection con) throws SQLException, ClassNotFoundException {
         String tableName = "weather";
