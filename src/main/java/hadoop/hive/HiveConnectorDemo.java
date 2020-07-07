@@ -41,7 +41,6 @@ public class HiveConnectorDemo {
         alterPartitionByYMD(con, tableName, "2016", yearMonthsGiven.get("2016"));
         alterPartitionByYMD(con, tableName, "2017", yearMonthsGiven.get("2017"));
 
-
     }
 
     private void alterPartitionByYMD(Connection con, String tableName, String year, List<String> monthList) throws SQLException {
@@ -54,7 +53,7 @@ public class HiveConnectorDemo {
             logger.info(endDayOfThatDate);
             for (int i = 1; i <= endDayOfThatDate; i++) {
                 day = "" + i;
-                alterPartionSql = "ALTER TABLE " + tableName + " ADD PARTITION(year=" + year + ", month=" + month + ", day=" + day + ") LOCATION 'hdfs://sandbox-hdp.hortonworks.com/sandbox/weather/year=" + year + "/month=" + month + "/day=" + day + "'";
+                alterPartionSql = "ALTER TABLE " + tableName + " ADD PARTITION(year=" + year + ", month=" + month + ", day=" + day + ") LOCATION 'hdfs:///sandbox/weather/year=" + year + "/month=" + month + "/day=" + day + "'";
                 logger.info(alterPartionSql);
                 executeHiveSql(con, alterPartionSql);
             }

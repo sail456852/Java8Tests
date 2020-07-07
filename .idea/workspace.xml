@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="make kafka module as a single project">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/SimpleKafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/SimpleKafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/kafka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/SimpleKafkaProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/dto/WeatherDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/dto/WeatherDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/dto/WeatherSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/streamDemo/KStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kafka/stream/SimpleKafkaProducerTest.java" beforeDir="false" />
     </list>
     <list id="1c417bd2-ee27-4aa6-aa5b-fbc6d9749929" name="DoNotCommit" comment="DoNotCommit" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleKafkaProducerTest.producer">
+  <component name="RunManager" selected="JUnit.HiveConnectorDemoTest.alterHiveTable">
     <configuration name="HiveConnectorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hadoop.hive.HiveConnectorDemo" />
       <module name="Java8Tests" />
@@ -313,15 +322,15 @@
     <list>
       <item itemvalue="Application.HiveConnectorDemo" />
       <item itemvalue="JUnit.TestGeoHash.generateGeoHashDemo" />
-      <item itemvalue="Maven.jetty" />
       <item itemvalue="JUnit.HiveConnectorDemoTest.readHive" />
       <item itemvalue="JUnit.HiveConnectorDemoTest.alterHiveTable" />
       <item itemvalue="JUnit.SimpleKafkaProducerTest.producer" />
+      <item itemvalue="Maven.jetty" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleKafkaProducerTest.producer" />
         <item itemvalue="JUnit.HiveConnectorDemoTest.alterHiveTable" />
+        <item itemvalue="JUnit.SimpleKafkaProducerTest.producer" />
         <item itemvalue="JUnit.HiveConnectorDemoTest.readHive" />
         <item itemvalue="Application.HiveConnectorDemo" />
         <item itemvalue="JUnit.TestGeoHash.generateGeoHashDemo" />
@@ -922,10 +931,10 @@
     <state x="-1297" y="255" width="672" height="677" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592289205762" />
     <state x="623" y="255" width="672" height="677" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591241984924" />
     <state x="623" y="255" key="run.anything.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944093122" />
-    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1592293278037">
+    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1592984025727">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592293278037" />
+    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592984025727" />
     <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591243749991" />
     <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585115920248" />
   </component>
