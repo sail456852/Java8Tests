@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="make kafka module as a single project">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/ConcurrentMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hadoop/hive/HiveConnectorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/kafka.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/SimpleKafkaProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/dto/WeatherDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/dto/WeatherDeserializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/stream/dto/WeatherSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/java/streamDemo/KStreamDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kafka/stream/SimpleKafkaProducerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hadoop/hive/HiveConnectorDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hadoop/hive/HiveConnectorDemoTest.java" afterDir="false" />
     </list>
     <list id="1c417bd2-ee27-4aa6-aa5b-fbc6d9749929" name="DoNotCommit" comment="DoNotCommit" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +62,9 @@
       <GitPushTagMode />
     </option>
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
@@ -79,22 +73,11 @@
     <bower-package value="" />
     <bower.json value="" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/ProgramData/chocolatey/lib/apache-maven-3.6.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../ProgramData/chocolatey/lib/apache-maven-3.6.2" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
     <option name="enabledProfiles">
       <list>
@@ -114,7 +97,6 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -122,6 +104,8 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.54329" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Generator&#9;FILE&#9;file:///home/yz/MyProjects/Java8Tests/TIJ4-code/examples/net/mindview/util/Generator.java&#10;Gene&#9;FILE&#9;file:///home/yz/MyProjects/Java8Tests/examples/net/mindview/util/Generator.java" />
@@ -138,10 +122,10 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="&#10;" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/kafka" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/spring-boot-kafka-producer-example/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3895886" />
     <property name="rest.client.default.execution.environment" value="local80" />
@@ -150,13 +134,6 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="spring.service" />
-      <recent name="msc.form" />
-      <recent name="msc.util" />
-      <recent name="spring.springshiro" />
-      <recent name="msc.email" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="kafka.stream" />
       <recent name="hadoop.hive" />
@@ -172,6 +149,13 @@
       <recent name="msc.excel.deprecatedExcel" />
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\hadoop\hive" />
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient" />
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\excel\deprecatedExcel" />
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\utils" />
+      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\depreciatedUtils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java" />
       <recent name="C:\Users\Administrator\IdeaProjects\Java8Tests\src\test\java\spring\official" />
@@ -186,12 +170,12 @@
       <recent name="msc.tool" />
       <recent name="msc.encription" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\hadoop\hive" />
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient" />
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\excel\deprecatedExcel" />
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\utils" />
-      <recent name="C:\Users\Eugene_Wang\IdeaProjects\Java8Tests\src\main\java\msc\httpclient\depreciatedUtils" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="spring.service" />
+      <recent name="msc.form" />
+      <recent name="msc.util" />
+      <recent name="spring.springshiro" />
+      <recent name="msc.email" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -216,16 +200,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HiveConnectorDemoTest.alterHiveTable">
-    <configuration name="HiveConnectorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hadoop.hive.HiveConnectorDemo" />
+  <component name="RunManager" selected="JUnit.ConcurrentMapTest.givenConcurrentMap_whenSumParallel_thenCorrect">
+    <configuration name="ConcurrentMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8Tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hadoop.hive.*" />
+          <option name="PATTERN" value="map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="map" />
+      <option name="MAIN_CLASS_NAME" value="map.ConcurrentMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcurrentMapTest.givenConcurrentMap_whenSumParallel_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="map" />
+      <option name="MAIN_CLASS_NAME" value="map.ConcurrentMapTest" />
+      <option name="METHOD_NAME" value="givenConcurrentMap_whenSumParallel_thenCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcurrentMapTest.givenHashMap_whenSumParallel_thenError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="map" />
+      <option name="MAIN_CLASS_NAME" value="map.ConcurrentMapTest" />
+      <option name="METHOD_NAME" value="givenHashMap_whenSumParallel_thenError" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,22 +264,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HiveConnectorDemoTest.readHive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hadoop.hive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hadoop.hive" />
-      <option name="MAIN_CLASS_NAME" value="hadoop.hive.HiveConnectorDemoTest" />
-      <option name="METHOD_NAME" value="readHive" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SimpleKafkaProducerTest.producer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8Tests" />
       <extension name="coverage">
@@ -273,22 +275,6 @@
       <option name="PACKAGE_NAME" value="kafka.stream" />
       <option name="MAIN_CLASS_NAME" value="kafka.stream.SimpleKafkaProducerTest" />
       <option name="METHOD_NAME" value="producer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestGeoHash.generateGeoHashDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hadoop.hive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hadoop.hive" />
-      <option name="MAIN_CLASS_NAME" value="hadoop.hive.TestGeoHash" />
-      <option name="METHOD_NAME" value="generateGeoHashDemo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -320,37 +306,25 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HiveConnectorDemo" />
-      <item itemvalue="JUnit.TestGeoHash.generateGeoHashDemo" />
-      <item itemvalue="JUnit.HiveConnectorDemoTest.readHive" />
       <item itemvalue="JUnit.HiveConnectorDemoTest.alterHiveTable" />
       <item itemvalue="JUnit.SimpleKafkaProducerTest.producer" />
       <item itemvalue="Maven.jetty" />
+      <item itemvalue="JUnit.ConcurrentMapTest" />
+      <item itemvalue="JUnit.ConcurrentMapTest.givenHashMap_whenSumParallel_thenError" />
+      <item itemvalue="JUnit.ConcurrentMapTest.givenConcurrentMap_whenSumParallel_thenCorrect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConcurrentMapTest.givenConcurrentMap_whenSumParallel_thenCorrect" />
+        <item itemvalue="JUnit.ConcurrentMapTest.givenHashMap_whenSumParallel_thenError" />
+        <item itemvalue="JUnit.ConcurrentMapTest" />
         <item itemvalue="JUnit.HiveConnectorDemoTest.alterHiveTable" />
         <item itemvalue="JUnit.SimpleKafkaProducerTest.producer" />
-        <item itemvalue="JUnit.HiveConnectorDemoTest.readHive" />
-        <item itemvalue="Application.HiveConnectorDemo" />
-        <item itemvalue="JUnit.TestGeoHash.generateGeoHashDemo" />
       </list>
     </recent_temporary>
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -412,6 +386,7 @@
       <workItem from="1548811957030" duration="11215000" />
       <workItem from="1548923782926" duration="1476000" />
       <workItem from="1549070836837" duration="11056000" />
+      <workItem from="1594709253621" duration="2200000" />
     </task>
     <task id="LOCAL-00001" summary="Spring introduced! and it works!">
       <created>1545379185326</created>
@@ -679,12 +654,16 @@
       <option name="project" value="LOCAL" />
       <updated>1592294746321</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="make kafka module as a single project">
+      <created>1594103501088</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1594103501088</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267632000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -696,7 +675,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -732,18 +711,14 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="559" y="199" key="#Project_Structure" timestamp="1585036519010">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1480" y="99" key="#Project_Structure" timestamp="1594709323457">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="559" y="199" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585036519010" />
+    <state x="-1480" y="99" key="#Project_Structure/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594709323457" />
     <state x="-1356" y="143" key="#UnirestClient.simpleHttpClient" timestamp="1590491741358">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1356" y="143" key="#UnirestClient.simpleHttpClient/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590491741358" />
-    <state x="421" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584943882477">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="421" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584943882477" />
     <state x="-1216" y="394" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1591694235402">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -757,7 +732,6 @@
     </state>
     <state x="-1110" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590491764307" />
     <state x="810" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590458506063" />
-    <state x="810" y="435" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584943514762" />
     <state x="-1175" y="135" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1590542968178">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -778,80 +752,73 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1279" y="284" width="977" height="766" key="#xdebugger.evaluate/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590543539581" />
-    <state x="-1381" y="48" key="CommitChangelistDialog2" timestamp="1592294825255">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="539" y="48" key="CommitChangelistDialog2" timestamp="1594106438024">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1381" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592294825255" />
-    <state x="539" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460450012" />
+    <state x="-1381" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594103499878" />
+    <state x="539" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1594106438024" />
     <state x="490" y="180" key="DBNavigator.ProjectSettingsDialog" timestamp="1591065549984">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="490" y="180" key="DBNavigator.ProjectSettingsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591065549984" />
-    <state width="522" height="625" key="DebuggerActiveHint" timestamp="1591689388883">
+    <state width="522" height="625" key="DebuggerActiveHint" timestamp="1594710449420">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="522" height="625" key="DebuggerActiveHint/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591689388883" />
-    <state x="-1828" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1592294840461">
+    <state width="522" height="625" key="DebuggerActiveHint/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594710449420" />
+    <state x="-1828" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1594103492130">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1828" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592294840461" />
+    <state x="-1828" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594103492130" />
     <state x="-1257" y="328" key="FileChooserDialogImpl" timestamp="1592293186859">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="663" y="325" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585036518093" />
     <state x="-1257" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592293186859" />
     <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591065378251" />
-    <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944479614" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1592295341441">
+    <state width="1921" height="378" key="GridCell.Tab.0.bottom" timestamp="1594710318046">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592295341441" />
+    <state width="1921" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594710318046" />
     <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
-    <state width="1405" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1592295341441">
+    <state width="1921" height="378" key="GridCell.Tab.0.center" timestamp="1594710318046">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592295341441" />
+    <state width="1921" height="378" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594710318046" />
     <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
-    <state width="1405" height="240" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1592295341441">
+    <state width="1921" height="378" key="GridCell.Tab.0.left" timestamp="1594710318046">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592295341441" />
+    <state width="1921" height="378" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594710318046" />
     <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786517" />
-    <state width="1405" height="240" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1592295341441">
+    <state width="1921" height="378" key="GridCell.Tab.0.right" timestamp="1594710318046">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592295341441" />
+    <state width="1921" height="378" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594710318046" />
     <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
-    <state width="1405" height="240" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944578968" />
-    <state width="1877" height="220" key="GridCell.Tab.1.bottom" timestamp="1591694236435">
+    <state width="1921" height="378" key="GridCell.Tab.1.bottom" timestamp="1594710319723">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694236435" />
+    <state width="1921" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594710319723" />
     <state width="1877" height="220" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591243769675" />
-    <state width="1877" height="220" key="GridCell.Tab.1.center" timestamp="1591694236434">
+    <state width="1921" height="378" key="GridCell.Tab.1.center" timestamp="1594710319722">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694236434" />
+    <state width="1921" height="378" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594710319722" />
     <state width="1877" height="220" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591243769674" />
-    <state width="1877" height="220" key="GridCell.Tab.1.left" timestamp="1591694236434">
+    <state width="1921" height="378" key="GridCell.Tab.1.left" timestamp="1594710319722">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694236434" />
+    <state width="1921" height="378" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594710319722" />
     <state width="1877" height="220" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591243769674" />
-    <state width="1877" height="220" key="GridCell.Tab.1.right" timestamp="1591694236434">
+    <state width="1921" height="378" key="GridCell.Tab.1.right" timestamp="1594710319723">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591694236434" />
+    <state width="1921" height="378" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594710319723" />
     <state width="1877" height="220" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591243769674" />
     <state x="-1423" y="196" key="Maven.ArtifactSearchDialog" timestamp="1590496297256">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1423" y="196" key="Maven.ArtifactSearchDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590496297256" />
     <state x="497" y="196" key="Maven.ArtifactSearchDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590458615908" />
-    <state x="497" y="196" key="Maven.ArtifactSearchDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585109153514" />
     <state x="-1300" y="143" key="NewModule_or_Project.wizard" timestamp="1592293200998">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -867,24 +834,22 @@
     <state x="-1452" y="188" key="SettingsEditor" timestamp="1591070316407">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="468" y="186" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585036473998" />
     <state x="-1452" y="188" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591070316407" />
     <state x="468" y="188" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590543783866" />
-    <state x="468" y="188" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944575560" />
     <state x="-1239" y="266" width="585" height="540" key="StructurePopup" timestamp="1592293843598">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1239" y="266" width="585" height="540" key="StructurePopup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592293843598" />
-    <state width="498" height="597" key="SwitcherDM" timestamp="1592293718601">
+    <state width="498" height="717" key="SwitcherDM" timestamp="1594710388650">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="498" height="597" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592293718601" />
+    <state width="498" height="717" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594710388650" />
     <state width="498" height="617" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591244319548" />
-    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2" timestamp="1592294841500">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1594106440066">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592294841500" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590460454502" />
+    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594103509798" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1594106440066" />
     <state width="968" height="533" key="XDebugger.FullValuePopup" timestamp="1590543055351">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -894,10 +859,6 @@
     </state>
     <state x="-1144" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592279081766" />
     <state x="776" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591240203226" />
-    <state x="774" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584944020201">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="774" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944020201" />
     <state x="-1189" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592280118963">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -907,12 +868,11 @@
     </state>
     <state x="-1230" y="269" key="extract.method.dialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592288934482" />
     <state x="690" y="269" key="extract.method.dialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591240780092" />
-    <state x="-1421" y="169" width="1146" height="786" key="find.popup" timestamp="1591953398568">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="653" y="261" width="640" height="568" key="find.popup" timestamp="1594106471705">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1421" y="169" width="1146" height="786" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591953398568" />
-    <state x="653" y="261" width="640" height="568" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591241406460" />
-    <state x="653" y="261" width="627" height="568" key="find.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584945801694" />
+    <state x="653" y="261" width="640" height="568" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1594106471705" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1591257653120">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -930,13 +890,11 @@
     </state>
     <state x="-1297" y="255" width="672" height="677" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592289205762" />
     <state x="623" y="255" width="672" height="677" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591241984924" />
-    <state x="623" y="255" key="run.anything.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584944093122" />
-    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1592984025727">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="630" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1594106630812">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592984025727" />
-    <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591243749991" />
-    <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585115920248" />
+    <state x="630" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1594106630812" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

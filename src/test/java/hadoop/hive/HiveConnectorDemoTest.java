@@ -29,7 +29,8 @@ public class HiveConnectorDemoTest {
     @Before
     public void setUp() throws ClassNotFoundException, SQLException {
         Class.forName(driverName);
-        con = DriverManager.getConnection("jdbc:hive2://sandbox-hdp.hortonworks.com:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2", "hive", "Gbhnjmk,");
+//        con = DriverManager.getConnection("jdbc:hive2://sandbox-hdp.hortonworks.com:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2", "hive", "Gbhnjmk,");
+        con = DriverManager.getConnection("jdbc:hive2://localhost:2181/;serviceDiscoveryMode=zooKeeper;");
         statement = con.createStatement();
         demoObj = new HiveConnectorDemo();
     }
