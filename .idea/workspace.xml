@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/immutability/ThreeStooges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/immutability/ThreeStoogesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackerrank/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackerrank/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackerrank/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackerrank/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackerrank/src/main/java/MyRegex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackerrank/src/main/java/bigger/sum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackerrank/src/main/java/sock/merchant/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="1c417bd2-ee27-4aa6-aa5b-fbc6d9749929" name="DoNotCommit" comment="DoNotCommit" />
@@ -23,6 +30,23 @@
       <FILTER>msc.databasepool.*</FILTER>
     </SUITE>
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Hackerrank">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,9 +54,9 @@
         <option value="AnnotationType" />
         <option value="JavaScript File" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -84,6 +108,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -108,13 +133,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3895886" />
     <property name="rest.client.default.execution.environment" value="local80" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -183,18 +208,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThreeStoogesTest.isStooge">
-    <configuration name="ConcurrentMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8Tests" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="MyRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyRegex" />
+      <module name="Hackerrank.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bigger.sum.Solution" />
+      <module name="Hackerrank.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="bigger.sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="map" />
-      <option name="MAIN_CLASS_NAME" value="map.ConcurrentMapTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,33 +245,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcurrentMapTest.givenHashMap_whenSumParallel_thenError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="map" />
-      <option name="MAIN_CLASS_NAME" value="map.ConcurrentMapTest" />
-      <option name="METHOD_NAME" value="givenHashMap_whenSumParallel_thenError" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HiveConnectorDemoTest.alterHiveTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8Tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hadoop.hive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hadoop.hive" />
-      <option name="MAIN_CLASS_NAME" value="hadoop.hive.HiveConnectorDemoTest" />
-      <option name="METHOD_NAME" value="alterHiveTable" />
+    <configuration name="MyRegex.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hackerrank.main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyRegex" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -289,20 +297,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.HiveConnectorDemoTest.alterHiveTable" />
-      <item itemvalue="JUnit.ConcurrentMapTest" />
-      <item itemvalue="JUnit.ConcurrentMapTest.givenHashMap_whenSumParallel_thenError" />
       <item itemvalue="JUnit.ConcurrentMapTest.givenConcurrentMap_whenSumParallel_thenCorrect" />
-      <item itemvalue="Maven.jetty" />
       <item itemvalue="JUnit.ThreeStoogesTest.isStooge" />
+      <item itemvalue="Maven.jetty" />
+      <item itemvalue="Application.MyRegex" />
+      <item itemvalue="JUnit.MyRegex.test1" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.MyRegex.test1" />
+        <item itemvalue="Application.MyRegex" />
         <item itemvalue="JUnit.ThreeStoogesTest.isStooge" />
         <item itemvalue="JUnit.ConcurrentMapTest.givenConcurrentMap_whenSumParallel_thenCorrect" />
-        <item itemvalue="JUnit.ConcurrentMapTest.givenHashMap_whenSumParallel_thenError" />
-        <item itemvalue="JUnit.ConcurrentMapTest" />
-        <item itemvalue="JUnit.HiveConnectorDemoTest.alterHiveTable" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +378,10 @@
       <workItem from="1548923782926" duration="1476000" />
       <workItem from="1549070836837" duration="11056000" />
       <workItem from="1594709253621" duration="2251000" />
-      <workItem from="1594869577458" duration="13433000" />
+      <workItem from="1594869577458" duration="16514000" />
+      <workItem from="1595819694633" duration="293000" />
+      <workItem from="1595831390252" duration="598000" />
+      <workItem from="1595834861868" duration="6319000" />
     </task>
     <task id="LOCAL-00001" summary="Spring introduced! and it works!">
       <created>1545379185326</created>
@@ -652,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594714102926</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="concurrent hash map test">
+      <created>1595233842152</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1595233842153</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -702,6 +720,10 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1192" y="250" key="#DockerOnTencent" timestamp="1595314501749">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1192" y="250" key="#DockerOnTencent/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595314501749" />
     <state x="-1368" y="183" width="816" height="729" key="#Intentions" timestamp="1594870316549">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -743,14 +765,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="758" y="381" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591240205194" />
+    <state x="-1459" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595836127667">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1459" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595836127667" />
     <state x="-1279" y="284" width="977" height="766" key="#xdebugger.evaluate" timestamp="1590543539581">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1279" y="284" width="977" height="766" key="#xdebugger.evaluate/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1590543539581" />
-    <state x="-1381" y="14" key="CommitChangelistDialog2" timestamp="1594714101215">
+    <state x="-1381" y="14" key="CommitChangelistDialog2" timestamp="1595233840188">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1381" y="14" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594714101215" />
+    <state x="-1381" y="14" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595233840188" />
     <state x="539" y="48" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1594106438024" />
     <state x="490" y="180" key="DBNavigator.ProjectSettingsDialog" timestamp="1591065549984">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -769,25 +795,25 @@
     </state>
     <state x="-1257" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594870106255" />
     <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591065378251" />
-    <state width="1921" height="307" key="GridCell.Tab.0.bottom" timestamp="1594879227542">
+    <state width="1921" height="365" key="GridCell.Tab.0.bottom" timestamp="1595991468197">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594879227542" />
+    <state width="1921" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595991468197" />
     <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
-    <state width="1921" height="307" key="GridCell.Tab.0.center" timestamp="1594879227541">
+    <state width="1921" height="365" key="GridCell.Tab.0.center" timestamp="1595991468197">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="307" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594879227541" />
+    <state width="1921" height="365" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595991468197" />
     <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
-    <state width="1921" height="307" key="GridCell.Tab.0.left" timestamp="1594879227541">
+    <state width="1921" height="365" key="GridCell.Tab.0.left" timestamp="1595991468197">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="307" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594879227541" />
+    <state width="1921" height="365" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595991468197" />
     <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786517" />
-    <state width="1921" height="307" key="GridCell.Tab.0.right" timestamp="1594879227541">
+    <state width="1921" height="365" key="GridCell.Tab.0.right" timestamp="1595991468197">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="307" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594879227541" />
+    <state width="1921" height="365" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595991468197" />
     <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591251786518" />
     <state width="1921" height="378" key="GridCell.Tab.1.bottom" timestamp="1594714138283">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -826,24 +852,24 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1196" y="151" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592276785563" />
-    <state x="-1452" y="188" key="SettingsEditor" timestamp="1594870302476">
+    <state x="-1452" y="188" key="SettingsEditor" timestamp="1595836866152">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1452" y="188" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594870302476" />
+    <state x="-1452" y="188" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595836866152" />
     <state x="468" y="188" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1590543783866" />
     <state x="-1239" y="266" width="585" height="540" key="StructurePopup" timestamp="1592293843598">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1239" y="266" width="585" height="540" key="StructurePopup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592293843598" />
-    <state width="498" height="717" key="SwitcherDM" timestamp="1594871383505">
+    <state width="498" height="717" key="SwitcherDM" timestamp="1595990824211">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="498" height="717" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594871383505" />
+    <state width="498" height="717" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595990824211" />
     <state width="498" height="617" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591244319548" />
-    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2" timestamp="1594714110332">
+    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2" timestamp="1595233845686">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594714110332" />
+    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595233845686" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1594106440066" />
     <state width="968" height="533" key="XDebugger.FullValuePopup" timestamp="1590543055351">
       <screen x="-1920" y="0" width="1920" height="1050" />
@@ -854,6 +880,10 @@
     </state>
     <state x="-1144" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592279081766" />
     <state x="776" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591240203226" />
+    <state x="-1256" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595836871574">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1256" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595836871574" />
     <state x="-1189" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594870349210">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -872,18 +902,18 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591257653120" />
-    <state x="-1578" y="249" key="new project wizard" timestamp="1592294806138">
+    <state x="-1545" y="103" key="new project wizard" timestamp="1595835003463">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1578" y="249" key="new project wizard/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592294806138" />
+    <state x="-1545" y="103" key="new project wizard/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595835003463" />
     <state x="-1251" y="135" key="refactoring.ChangeSignatureDialog" timestamp="1591953816318">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1251" y="135" key="refactoring.ChangeSignatureDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1591953816318" />
-    <state x="-1297" y="255" width="672" height="677" key="run.anything.popup" timestamp="1592289205762">
+    <state x="-1297" y="255" width="672" height="677" key="run.anything.popup" timestamp="1595234029961">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1297" y="255" width="672" height="677" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1592289205762" />
+    <state x="-1297" y="255" width="672" height="677" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595234029961" />
     <state x="623" y="255" width="672" height="677" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1591241984924" />
     <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1594870121024">
       <screen x="-1920" y="0" width="1920" height="1050" />
