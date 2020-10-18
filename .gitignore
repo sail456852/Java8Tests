@@ -2,4 +2,5 @@
 .idea
 target
 out
-Java8Tests.iml
+Java8Tests.iml`
+/src/main/java/msc/httpclient/kuaidi100/
