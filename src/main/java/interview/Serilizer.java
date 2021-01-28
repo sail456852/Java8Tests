@@ -1,6 +1,7 @@
 package interview;
 
-import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -18,7 +19,7 @@ import static java.nio.file.StandardOpenOption.CREATE;
  * To change this template use File | Settings | File Templates.
  */
 public class Serilizer {
-    public List<String> readFromText(String path){
+    public List<String> readFromText(String path) {
         try {
             List<String> strings = Files.readAllLines(Paths.get(path));
             return strings;
@@ -30,7 +31,7 @@ public class Serilizer {
         return null;
     }
 
-    public void writeToFile(String path, List<String> lines){
+    public void writeToFile(String path, List<String> lines) {
         try {
             Path path1 = Paths.get(path);
             Files.write(path1, lines, UTF_8, APPEND, CREATE);

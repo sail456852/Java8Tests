@@ -25,7 +25,7 @@ public class DouBan {
 
     private static List<String> urls;
     static String doubanLogonCookies = "doubanLogonCookies";
-    private static Logger logger ;
+    private static Logger logger;
     private static Random random = new Random(100);
     ;
     private static boolean calledByJob = false;
@@ -33,12 +33,7 @@ public class DouBan {
     static {
         logger = LoggerFactory.getLogger(DouBan.class);
         urls = Arrays.asList(
-                "https://www.douban.com/group/topic/131119511/",
-                "https://www.douban.com/group/topic/130698339/",
-                "https://www.douban.com/group/topic/131156212/",
-                "https://www.douban.com/group/topic/131153591/",
-                "https://www.douban.com/group/topic/131153118/",
-                "https://www.douban.com/group/topic/131119957/"
+                "https://www.douban.com/group/topic/131156212/"
         );
     }
 
@@ -82,8 +77,8 @@ public class DouBan {
         }
 
         Map<String, String> dataMap = new HashMap<String, String>() {{
-            put("form_email", "sail456852@hotmail.com");
-            put("form_password", "i1234567");
+            put("form_email", "xxxxxx@hotmail.com");
+            put("form_password", "password");
             put("source", "index_nav");
             put("redir", "https://www.douban.com");
             put("source", "none");
@@ -103,7 +98,7 @@ public class DouBan {
             dataMap.put("captcha-solution", captchaCode);
 //            loginResponse = Jsoup
 //                    .connect(url)
-//                    .data("form_email", "sail456852@hotmail.com", "form_password", "i1234567",
+//                    .data("form_email", "xxxxxx@hotmail.com", "form_password", "password",
 //                            "source", "index_nav", "captcha-id", captchaId, "captcha-solution", captchaCode,
 //                            "redir", "https://www.douban.com", "source", "None").cookies(cookies)
 //                    .method(Connection.Method.POST).execute();
@@ -120,7 +115,7 @@ public class DouBan {
 
     @Test
     public void toStringList() {
-        String[] arr = {"form_email", "sail456852@hotmail.com", "form_password", "i1234567",
+        String[] arr = {"form_email", "ssss", "form_password", "sdfsdf",
                 "source", "index_nav", "redir", "https://www.douban.com", "source", "None"};
         List<String> dataList = new ArrayList<>(Arrays.asList(arr));
 //        dataList.addAll(new ArrayList<String>(){{add("captcha-id"); add("testcaptchaid");}});
@@ -166,7 +161,7 @@ public class DouBan {
         // read from class path
         logger.info("read from classpath DouBan.class");
 //        HashMap<String, String> dlCookies = getCookiesFromClassPath();
-          HashMap<String, String> dlCookies = MapConvertFile.inputFile(doubanLogonCookies);
+        HashMap<String, String> dlCookies = MapConvertFile.inputFile(doubanLogonCookies);
         System.err.println("logonCookie = " + logonCookie);
         System.err.println("dlCookies = " + dlCookies);
         logger.info("callComment() \"dlCookies\": " + dlCookies);

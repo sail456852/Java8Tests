@@ -22,6 +22,7 @@ import java.util.stream.Collectors;
  */
 public class DoubanRentalScraper {
     private static final Logger logger = LoggerFactory.getLogger(DoubanRentalScraper.class);
+
     public static void main(String[] args) throws IOException {
         String url = "https://www.douban.com/group/nanshanzufang/";
         Connection.Response response = Jsoup.connect(url).method(Connection.Method.GET).execute();

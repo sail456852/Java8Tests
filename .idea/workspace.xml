@@ -35,39 +35,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e7da9fa-7613-4312-8824-7b2b6c062c20" name="Test Zip File API" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/douban/DoubanRentalScraper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zip/ZipCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mashape_unirest_unirest_java_1_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mashape_unirest_unirest_java_1_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_12_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_16_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_16_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160212.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160212.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0e7da9fa-7613-4312-8824-7b2b6c062c20" name="Test Zip File API" comment="Test Zip File API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/geohash/GeoHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/geohash/GeoHash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/immutability/ThreeStooges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/immutability/ThreeStooges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/MarvinHttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/depreciatedUtils/MarvinHttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/douban/BaiduApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/douban/BaiduApiDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/config/Const.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/MapCustomConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/NoticeRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/NoticeResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/ResultItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/TaskRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/pojo/TaskResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/utils/HttpRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/kuaidi100/utils/JacksonHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interview/Serilizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interview/Serilizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/douban/DouBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/douban/DouBan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msc/httpclient/douban/DoubanRentalScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msc/httpclient/douban/DoubanRentalScraper.java" afterDir="false" />
     </list>
     <list id="a860a401-5786-4379-90a6-00f00f1cb092" name="Default Changelist" comment="" />
     <list id="1c417bd2-ee27-4aa6-aa5b-fbc6d9749929" name="DoNotCommit" comment="DoNotCommit" />
@@ -196,10 +169,10 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="&#10;" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/kafka" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3895886" />
     <property name="rest.client.default.execution.environment" value="local80" />
@@ -274,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoubanRentalScraper">
+  <component name="RunManager" selected="JUnit.DouBan.callCommentTest">
     <configuration name="DoubanRentalScraper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="msc.httpclient.douban.DoubanRentalScraper" />
       <module name="Java8Tests" />
@@ -288,12 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bigger.sum.Solution" />
-      <module name="Hackerrank.main" />
+    <configuration name="ProducerAndConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="udemy.cc.ProducerAndConsumer" />
+      <module name="Java8Tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bigger.sum.*" />
+          <option name="PATTERN" value="udemy.cc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,19 +287,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConcurrentMapTest.givenHashMap_whenSumParallel_thenError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8Tests" />
       <extension name="coverage">
@@ -343,11 +303,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyRegex.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hackerrank.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyRegex" />
-      <option name="METHOD_NAME" value="test1" />
+    <configuration name="DouBan.callCommentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="msc.httpclient.douban.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="msc.httpclient.douban" />
+      <option name="MAIN_CLASS_NAME" value="msc.httpclient.douban.DouBan" />
+      <option name="METHOD_NAME" value="callCommentTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -379,20 +345,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.ZipCompression" />
       <item itemvalue="Application.DoubanRentalScraper" />
-      <item itemvalue="JUnit.MyRegex.test1" />
+      <item itemvalue="Application.ProducerAndConsumer" />
       <item itemvalue="JUnit.ConcurrentMapTest.givenHashMap_whenSumParallel_thenError" />
+      <item itemvalue="JUnit.DouBan.callCommentTest" />
       <item itemvalue="Maven.jetty" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DouBan.callCommentTest" />
+        <item itemvalue="Application.ProducerAndConsumer" />
         <item itemvalue="Application.DoubanRentalScraper" />
         <item itemvalue="JUnit.ConcurrentMapTest.givenHashMap_whenSumParallel_thenError" />
         <item itemvalue="Application.ZipCompression" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.MyRegex.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -767,9 +733,30 @@
       <workItem from="1602982551847" duration="35000" />
       <workItem from="1602982596360" duration="1314000" />
       <workItem from="1602983920565" duration="1059000" />
-      <workItem from="1602984992607" duration="2291000" />
+      <workItem from="1602984992607" duration="2375000" />
+      <workItem from="1602987700070" duration="656000" />
+      <workItem from="1605683651470" duration="1984000" />
+      <workItem from="1605688095419" duration="215000" />
+      <workItem from="1605688324045" duration="383000" />
+      <workItem from="1605689383948" duration="1285000" />
+      <workItem from="1605710491676" duration="2002000" />
+      <workItem from="1605746003328" duration="2699000" />
+      <workItem from="1605770687195" duration="1984000" />
+      <workItem from="1611456231530" duration="30000" />
+      <workItem from="1611456388768" duration="852000" />
+      <workItem from="1611459630046" duration="1500000" />
+      <workItem from="1611759852456" duration="404000" />
+      <workItem from="1611760696182" duration="260000" />
+      <workItem from="1611821620759" duration="83000" />
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Test Zip File API">
+      <created>1602987664712</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1602987664712</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -794,7 +781,6 @@
       <path value="$PROJECT_DIR$/TIJ4-code" />
       <path value="$PROJECT_DIR$/src/main/java/kafka" />
     </ignored-roots>
-    <MESSAGE value="TIJ annotation begins" />
     <MESSAGE value="Spring listener introduced!" />
     <MESSAGE value="shiro authorization start" />
     <MESSAGE value="spring shiro framework introduced!" />
@@ -819,153 +805,38 @@
     <MESSAGE value="hive add partition works well" />
     <MESSAGE value="make kafka module as a single project" />
     <MESSAGE value="concurrent hash map test" />
-    <option name="LAST_COMMIT_MESSAGE" value="concurrent hash map test" />
+    <MESSAGE value="Test Zip File API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Zip File API" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1192" y="250" key="#DockerOnTencent" timestamp="1595314501749">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1192" y="250" key="#DockerOnTencent/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595314501749" />
-    <state x="991" y="305" key="#HTTP_Proxy" timestamp="1602982718320">
+    <state x="441" y="100" key="#Project_Structure" timestamp="1605752226910">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="991" y="305" key="#HTTP_Proxy/0.0.1920.1050@0.0.1920.1050" timestamp="1602982718320" />
-    <state x="-1368" y="183" width="816" height="729" key="#Intentions" timestamp="1594870316549">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1368" y="183" width="816" height="729" key="#Intentions/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594870316549" />
-    <state x="729" y="354" key="#Notifications" timestamp="1601439416792">
+    <state x="441" y="100" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1605752226910" />
+    <state x="663" y="328" key="FileChooserDialogImpl" timestamp="1605712401638">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="729" y="354" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1601439416792" />
-    <state x="729" y="364" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1601178636688" />
-    <state x="802" y="224" key="#Plugins" timestamp="1602983910547">
+    <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605712401638" />
+    <state x="685" y="269" width="558" height="524" key="StructurePopup" timestamp="1611760710178">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="802" y="224" key="#Plugins/0.0.1920.1050@0.0.1920.1050" timestamp="1602983910547" />
-    <state x="553" y="181" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1601178538937" />
-    <state x="-1480" y="99" key="#Project_Structure" timestamp="1594709323457">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1480" y="99" key="#Project_Structure/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594709323457" />
-    <state x="294" y="167" width="1040" height="642" key="#Vim_Emulation" timestamp="1601203427289">
+    <state x="685" y="269" width="558" height="524" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1611760710178" />
+    <state width="498" height="717" key="SwitcherDM" timestamp="1611460224155">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="294" y="167" width="1040" height="642" key="#Vim_Emulation/0.0.1920.1050@0.0.1920.1050" timestamp="1601203427289" />
-    <state x="714" y="399" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1602982584228">
+    <state width="498" height="717" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1611460224155" />
+    <state x="400" y="249" width="640" height="801" key="find.popup" timestamp="1611460166454">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="714" y="399" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602982584228" />
-    <state x="714" y="410" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601178575734" />
-    <state x="-1155" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1594871003997">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1155" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594871003997" />
-    <state x="-1459" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595836127667">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1459" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595836127667" />
-    <state x="-1381" y="14" key="CommitChangelistDialog2" timestamp="1595233840188">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1381" y="14" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595233840188" />
-    <state width="522" height="625" key="DebuggerActiveHint" timestamp="1594710449420">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state width="522" height="625" key="DebuggerActiveHint/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594710449420" />
-    <state x="663" y="328" key="FileChooserDialogImpl" timestamp="1602982582729">
+    <state x="400" y="249" width="640" height="801" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1611460166454" />
+    <state x="375" y="153" width="1149" height="707" key="new project wizard" timestamp="1605684081418">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1257" y="328" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594870106255" />
-    <state x="663" y="328" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1602982582729" />
-    <state x="663" y="337" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1601178670232" />
-    <state width="1878" height="285" key="GridCell.Tab.0.bottom" timestamp="1601203264886">
+    <state x="375" y="153" width="1149" height="707" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1605684081418" />
+    <state x="658" y="279" width="672" height="678" key="search.everywhere.popup" timestamp="1605752230287">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595991468197" />
-    <state width="1878" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601203264886" />
-    <state width="1878" height="285" key="GridCell.Tab.0.center" timestamp="1601203264886">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1921" height="365" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595991468197" />
-    <state width="1878" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601203264886" />
-    <state width="1878" height="285" key="GridCell.Tab.0.left" timestamp="1601203264886">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1921" height="365" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595991468197" />
-    <state width="1878" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601203264886" />
-    <state width="1878" height="285" key="GridCell.Tab.0.right" timestamp="1601203264886">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1921" height="365" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595991468197" />
-    <state width="1878" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601203264886" />
-    <state width="1921" height="378" key="GridCell.Tab.1.bottom" timestamp="1594714138283">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1921" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594714138283" />
-    <state width="1921" height="378" key="GridCell.Tab.1.center" timestamp="1594714138283">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1921" height="378" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594714138283" />
-    <state width="1921" height="378" key="GridCell.Tab.1.left" timestamp="1594714138283">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1921" height="378" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594714138283" />
-    <state width="1921" height="378" key="GridCell.Tab.1.right" timestamp="1594714138283">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1921" height="378" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594714138283" />
-    <state x="491" y="180" key="Maven.ArtifactSearchDialog" timestamp="1601202696820">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="491" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601202696820" />
-    <state x="468" y="188" key="SettingsEditor" timestamp="1602806911996">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1452" y="188" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595836866152" />
-    <state x="468" y="188" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1602806911996" />
-    <state x="468" y="193" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601178678460" />
-    <state x="532" y="372" key="SimpleOpenTaskDialog" timestamp="1601177705871">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="532" y="372" key="SimpleOpenTaskDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601177705871" />
-    <state width="498" height="717" key="SwitcherDM" timestamp="1602984424475">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="498" height="717" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595990824211" />
-    <state width="498" height="717" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1602984424475" />
-    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2" timestamp="1595233845686">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1361" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595233845686" />
-    <state x="-1256" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595836871574">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1256" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595836871574" />
-    <state x="-1189" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594870349210">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1189" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594870349210" />
-    <state x="400" y="264" width="640" height="568" key="find.popup" timestamp="1601615365278">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="400" y="264" width="640" height="568" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601615365278" />
-    <state x="375" y="153" width="1149" height="707" key="new project wizard" timestamp="1602986809217">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1545" y="103" key="new project wizard/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595835003463" />
-    <state x="375" y="153" width="1149" height="707" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1602986809217" />
-    <state x="626" y="258" width="672" height="677" key="run.anything.popup" timestamp="1601189675664">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1297" y="255" width="672" height="677" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1595234029961" />
-    <state x="626" y="258" width="672" height="677" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601189675664" />
-    <state x="652" y="273" width="672" height="678" key="search.everywhere.popup" timestamp="1602982643553">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1290" y="251" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1594870121024" />
-    <state x="652" y="273" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602982643553" />
-    <state x="640" y="268" width="672" height="698" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1601178638636" />
+    <state x="658" y="279" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605752230287" />
   </component>
 </project>
